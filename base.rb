@@ -17,4 +17,4 @@ gem 'mocha'
 #  run installer and generator #
 ################################
 rake('gems:install', :sudo => true)
-rake('gems:unpack')
+rake('gems:unpack', :sudo => true)
